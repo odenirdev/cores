@@ -12,17 +12,28 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <h1>颜色</h1>
+        <div id="cores"></div>
+    </header>
     <section>
-        <label for="todasAsCores">
-            <input type="hidden" id="todasAsCores">
-        </label>
-        <label for="semCor">
-            <input type="color" id="semCor">            
-        </label>
+        <div id="controle">
+            <label for="todasAsCores">
+                <input type="color" id="todasAsCores" class="v-hidden">
+            </label>
+            <label for="semCor">
+                <input type="hidden" id="semCor">            
+            </label>
+        </div>
     </section>
-
-    <footer></footer>
+    <footer>
+        <div class="slidecontainer">
+            <div class="d-flex justify-content-center mb1em">
+                <label for="seletorAngulo">0</label>
+            </div>
+            <input id="seletorAngulo" type="range" class="slider" min="0" max="90" value="0">
+        </div>
+    </footer>
     <script src="js/geral.js"></script>
 </body>
 
