@@ -7,9 +7,17 @@ section {
 }
 
 section {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+    background: linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #controle {
@@ -50,6 +58,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 50%;
 }
 
 header {
@@ -57,6 +66,7 @@ header {
     left: 0;
     top: 0;
     width: 100%;
+    height: 50%;
 }
 
 .slidecontainer {
