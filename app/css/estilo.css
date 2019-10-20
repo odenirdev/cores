@@ -1,0 +1,42 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 1em;
+    border-top-right-radius: 20pt;
+    border-bottom-right-radius: 20pt;
+    border-top-left-radius: 20pt;
+    border-bottom-left-radius: 20pt;
+    box-shadow: 1em 1em 2em black;
+}
+
+label[for=todasAsCores] {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    border-top-left-radius: 20pt;
+    border-bottom-left-radius: 20pt;
+}
+
+#semCor {
+    visibility: hidden;
+}
+
+label[for=semCor] {
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    border-top-right-radius: 20pt;
+    border-bottom-right-radius: 20pt;
+}
